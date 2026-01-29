@@ -78,6 +78,57 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 1099,
+      "keepRatio": true,
+      "layer": "Inside room",
+      "name": "NewSprite",
+      "persistentUuid": "80c3b514-9f38-40cb-95bd-c1fd67875fa4",
+      "width": 1099,
+      "x": 720,
+      "y": 148,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 263,
+      "keepRatio": true,
+      "layer": "On the wall",
+      "name": "Poster_Paintings",
+      "persistentUuid": "5c7aa5b6-7416-40f3-a921-989cb5a83992",
+      "width": 550,
+      "x": 464,
+      "y": 269,
+      "zOrder": 5,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 377,
+      "keepRatio": true,
+      "layer": "On the wall",
+      "name": "Calendar",
+      "persistentUuid": "35e2d997-8df3-4bd3-8b09-18bce011715b",
+      "width": 377,
+      "x": 111,
+      "y": 206,
+      "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -211,6 +262,186 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "NewSprite",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "unnamed-removebg-preview (1).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 174,
+                        "y": 301
+                      },
+                      {
+                        "x": 319,
+                        "y": 301
+                      },
+                      {
+                        "x": 319,
+                        "y": 438
+                      },
+                      {
+                        "x": 174,
+                        "y": 438
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Poster_Paintings",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Gemini_Generated_Image_zcylhnzcylhnzcyl.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1472,
+                        "y": 0
+                      },
+                      {
+                        "x": 1472,
+                        "y": 704
+                      },
+                      {
+                        "x": 0,
+                        "y": 704
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Calendar",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "unnamed-removebg-preview (2).png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 108,
+                        "y": 129
+                      },
+                      {
+                        "x": 397,
+                        "y": 129
+                      },
+                      {
+                        "x": 397,
+                        "y": 389
+                      },
+                      {
+                        "x": 108,
+                        "y": 389
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -224,6 +455,15 @@
       },
       {
         "objectName": "Bed"
+      },
+      {
+        "objectName": "NewSprite"
+      },
+      {
+        "objectName": "Poster_Paintings"
+      },
+      {
+        "objectName": "Calendar"
       }
     ]
   },
@@ -360,7 +600,7 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "Layer2",
+      "name": "On the wall",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
