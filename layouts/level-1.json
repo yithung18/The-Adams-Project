@@ -44,6 +44,23 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 821,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "cd027b6b-9ddd-4056-a43d-2a41ace88f17",
+      "width": 614,
+      "x": 1384,
+      "y": 301,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
     }
   ],
   "objects": [
@@ -57,6 +74,66 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Door",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "unnamed-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 79,
+                        "y": 51
+                      },
+                      {
+                        "x": 345,
+                        "y": 51
+                      },
+                      {
+                        "x": 345,
+                        "y": 592
+                      },
+                      {
+                        "x": 79,
+                        "y": 592
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -64,6 +141,9 @@
     "children": [
       {
         "objectName": "NewTiledSprite"
+      },
+      {
+        "objectName": "Door"
       }
     ]
   },
@@ -191,8 +271,16 @@
   ],
   "behaviorsSharedData": [
     {
+      "name": "Animation",
+      "type": "AnimatableCapability::AnimatableBehavior"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
+    },
+    {
+      "name": "Flippable",
+      "type": "FlippableCapability::FlippableBehavior"
     },
     {
       "name": "Opacity",
@@ -201,6 +289,10 @@
     {
       "name": "Resizable",
       "type": "ResizableCapability::ResizableBehavior"
+    },
+    {
+      "name": "Scale",
+      "type": "ScalableCapability::ScalableBehavior"
     }
   ]
 }
