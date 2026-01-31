@@ -20,7 +20,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.5079575118131748,
+    "zoomFactor": 0.6846283916654068,
     "windowMask": false,
     "selectedLayer": "",
     "gameEditorMode": "instances-editor"
@@ -165,23 +165,6 @@
       "initialVariables": []
     },
     {
-      "angle": 90,
-      "customSize": true,
-      "depth": 2,
-      "height": 189,
-      "keepRatio": true,
-      "layer": "Items",
-      "name": "Pencil_inside_the_stand",
-      "persistentUuid": "336be8f7-4d8f-427d-8224-364a1ed2780d",
-      "width": 143,
-      "x": 1208,
-      "y": 726,
-      "zOrder": 9,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": true,
       "depth": 1,
@@ -194,6 +177,40 @@
       "x": 889,
       "y": 897,
       "zOrder": 10,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 91,
+      "keepRatio": true,
+      "layer": "Items",
+      "name": "Book",
+      "persistentUuid": "a0f0036d-dcd1-49a2-a248-523a63798b1c",
+      "width": 214,
+      "x": 361,
+      "y": 1010,
+      "zOrder": 11,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 0,
+      "height": 63,
+      "keepRatio": true,
+      "layer": "Items",
+      "name": "Card_paper",
+      "persistentUuid": "a894a8bb-a96b-46d1-98cc-2b1fac5381b1",
+      "width": 108,
+      "x": 1221,
+      "y": 770,
+      "zOrder": 12,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -786,6 +803,126 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Book",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "pngtree-closed-book-side-view-illustration-background-literature-workbook-vector-png-image_35563954-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 70,
+                        "y": 91
+                      },
+                      {
+                        "x": 698,
+                        "y": 91
+                      },
+                      {
+                        "x": 698,
+                        "y": 236
+                      },
+                      {
+                        "x": 70,
+                        "y": 236
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Card_paper",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "stock-vector-unreadable-illegible-gibberish-cursive-handwriting-messy-hand-written-poem-letter-vintage-2259238671.jpg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 1500,
+                        "y": 0
+                      },
+                      {
+                        "x": 1500,
+                        "y": 875
+                      },
+                      {
+                        "x": 0,
+                        "y": 875
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -820,6 +957,12 @@
       },
       {
         "objectName": "Dustbin"
+      },
+      {
+        "objectName": "Book"
+      },
+      {
+        "objectName": "Card_paper"
       }
     ]
   },
