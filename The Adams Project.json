@@ -373,6 +373,110 @@
         "name": "istockphoto-107217508-612x612_Nero_AI_Image_Upscaler_Photo_Face.jpeg",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "level 1 room.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1 room.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "level 1 door.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "level 1 door.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "istockphoto-1309894507-612x612-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "istockphoto-1309894507-612x612-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed-removebg-preview (1)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed-removebg-preview (1)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "chelsea-table-lamp-697405-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "chelsea-table-lamp-697405-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_z88463z88463z884-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_z88463z88463z884-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed-removebg-preview (2)2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed-removebg-preview (2)2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_zcylhnzcylhnzcyl2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_zcylhnzcylhnzcyl2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_z88463z88463z884-removebg-preview2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_z88463z88463z884-removebg-preview2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "diy-pencil-holder-handmade-crafts-textiles-215966985-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "diy-pencil-holder-handmade-crafts-textiles-215966985-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "istockphoto-476094594-612x612-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "istockphoto-476094594-612x612-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "mockup-top-view-one-black-pencil-lying-upright-realistic-style-vector-illustration-isolated-white-background-d-template-149962772-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "mockup-top-view-one-black-pencil-lying-upright-realistic-style-vector-illustration-isolated-white-background-d-template-149962772-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "10L-Capacity-Black-Leather-Single-Layer-Hotel-Room-Waste-Bins-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "10L-Capacity-Black-Leather-Single-Layer-Hotel-Room-Waste-Bins-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -398,6 +502,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/intro"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1"
     }
   ],
   "externalEvents": [],
