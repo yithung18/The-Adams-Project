@@ -248,66 +248,6 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "Level_1_door",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "level 1 door.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 79,
-                        "y": 51
-                      },
-                      {
-                        "x": 345,
-                        "y": 51
-                      },
-                      {
-                        "x": 345,
-                        "y": 592
-                      },
-                      {
-                        "x": 79,
-                        "y": 592
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
       "name": "Bed",
       "type": "Sprite",
       "updateIfNotVisible": false,
@@ -889,9 +829,6 @@
         "objectName": "Level_1_Background"
       },
       {
-        "objectName": "Level_1_door"
-      },
-      {
         "objectName": "Bed"
       },
       {
@@ -953,7 +890,7 @@
       "include": {
         "includeConfig": 0
       },
-      "target": "CursorHoverLogic"
+      "target": "CursorHoverandMusicLogic"
     },
     {
       "type": "BuiltinCommonInstructions::Standard",
@@ -1163,6 +1100,43 @@
           },
           "parameters": [
             "Painting",
+            "",
+            "",
+            ""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 1 painting\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        },
+        {
+          "type": {
+            "value": "IsCursorOnObject"
+          },
+          "parameters": [
+            "Level_1_door",
             "",
             "",
             ""

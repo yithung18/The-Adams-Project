@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 253,
+    "build": 254,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -543,6 +543,112 @@
         "name": "Tips point.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "steel door bg.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "steel door bg.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Kevin Macleod  Echoes of Time2.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Kevin Macleod  Echoes of Time2.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": false
+      },
+      {
+        "file": "Screenshot_2026-02-01_134110-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Screenshot_2026-02-01_134110-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "e435ca3b-7bc8-4a09-b39d-1fb16b46cc95-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "e435ca3b-7bc8-4a09-b39d-1fb16b46cc95-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "7e9a54bf-e663-4369-9737-429bebdd5e24-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "7e9a54bf-e663-4369-9737-429bebdd5e24-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "4571b2a3-714e-40e5-b834-3989f8713cbd-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4571b2a3-714e-40e5-b834-3989f8713cbd-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "b9c24f46-4657-4094-b635-9742ce25c82c-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "b9c24f46-4657-4094-b635-9742ce25c82c-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "3bc13bde-b0e9-4a99-874d-5f56229a8d4e-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3bc13bde-b0e9-4a99-874d-5f56229a8d4e-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "d908bb85-051e-44e6-9b6c-078d732fcf8d-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d908bb85-051e-44e6-9b6c-078d732fcf8d-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "891dd67e-c884-4193-a13e-17d8d03f1c97-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "891dd67e-c884-4193-a13e-17d8d03f1c97-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "579f5115-bd20-4fe1-9480-f3a6278f6209-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "579f5115-bd20-4fe1-9480-f3a6278f6209-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "1f60a02d-fa2c-43d3-8857-b7833ed98c9f-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1f60a02d-fa2c-43d3-8857-b7833ed98c9f-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "fda7d9e5-00d8-45b3-9258-924a25006254-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "fda7d9e5-00d8-45b3-9258-924a25006254-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -774,6 +880,66 @@
           ]
         }
       ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Level_1_door",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "level 1 door.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 79,
+                        "y": 51
+                      },
+                      {
+                        "x": 345,
+                        "y": 51
+                      },
+                      {
+                        "x": 345,
+                        "y": 592
+                      },
+                      {
+                        "x": 79,
+                        "y": 592
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -787,6 +953,9 @@
       },
       {
         "objectName": "ReturnButton"
+      },
+      {
+        "objectName": "Level_1_door"
       }
     ]
   },
@@ -816,12 +985,16 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/level-1-painting"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/level-1-door"
     }
   ],
   "externalEvents": [
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
-      "referenceTo": "/externalEvents/cursorhoverlogic"
+      "referenceTo": "/externalEvents/cursorhoverandmusiclogic"
     }
   ],
   "eventsFunctionsExtensions": [
