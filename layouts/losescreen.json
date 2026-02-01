@@ -1,8 +1,8 @@
 {
   "b": 255,
   "disableInputWhenNotFocused": true,
-  "mangledName": "WinLevel1",
-  "name": "WinLevel1",
+  "mangledName": "LoseScreen",
+  "name": "LoseScreen",
   "r": 247,
   "standardSortMethod": true,
   "stopSoundsOnStartup": true,
@@ -49,65 +49,14 @@
       "angle": 0,
       "customSize": true,
       "depth": 2,
-      "height": 266,
-      "keepRatio": true,
-      "layer": "",
-      "name": "LevelClearedText",
-      "persistentUuid": "674c95f4-b518-4adb-a8d5-90c43f48fc2f",
-      "width": 964,
-      "x": 496,
-      "y": 61,
-      "zOrder": 2,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 324,
-      "keepRatio": true,
-      "layer": "",
-      "name": "WinningDoctor",
-      "persistentUuid": "535b3d13-a0cf-4b5e-9d8d-459c8f9173f6",
-      "width": 324,
-      "x": 810,
-      "y": 334,
-      "zOrder": 3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
-      "height": 184,
-      "keepRatio": true,
-      "layer": "Buttons",
-      "name": "nextlvlbutton",
-      "persistentUuid": "ccd123d4-d903-4e92-bdd7-9c1a123871b9",
-      "width": 370,
-      "x": 1026,
-      "y": 766,
-      "zOrder": 4,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 2,
       "height": 188,
       "keepRatio": true,
       "layer": "Buttons",
       "name": "menubutton",
       "persistentUuid": "dd493fce-60b0-4945-9457-00f29d9212df",
       "width": 398,
-      "x": 525,
-      "y": 770,
+      "x": 628,
+      "y": 781,
       "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
@@ -125,6 +74,57 @@
       "x": 1550,
       "y": 334,
       "zOrder": 6,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 349,
+      "keepRatio": true,
+      "layer": "",
+      "name": "LevelFailedtext",
+      "persistentUuid": "d3f6972a-d8f6-49de-9651-8b9677dedb0a",
+      "width": 976,
+      "x": 599,
+      "y": 24,
+      "zOrder": 7,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 365,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Explosion",
+      "persistentUuid": "48817cf8-d0d0-471a-b447-64c681608300",
+      "width": 632,
+      "x": 718,
+      "y": 343,
+      "zOrder": 8,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 2,
+      "height": 162,
+      "keepRatio": true,
+      "layer": "",
+      "name": "ReplayLvlButton",
+      "persistentUuid": "d579cd1f-c0e6-4e61-a2cc-42d0859f45de",
+      "width": 350,
+      "x": 1108,
+      "y": 803,
+      "zOrder": 9,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -181,126 +181,6 @@
                       {
                         "x": 0,
                         "y": 4320
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "LevelClearedText",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "3629453d-4cd4-44d5-a55c-e1ce1d11f366-removebg-preview.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 31,
-                        "y": 47
-                      },
-                      {
-                        "x": 657,
-                        "y": 47
-                      },
-                      {
-                        "x": 657,
-                        "y": 166
-                      },
-                      {
-                        "x": 31,
-                        "y": 166
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "WinningDoctor",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "pedro-leite-jeferson-gif-removebg-preview.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 109,
-                        "y": 47
-                      },
-                      {
-                        "x": 375,
-                        "y": 47
-                      },
-                      {
-                        "x": 375,
-                        "y": 500
-                      },
-                      {
-                        "x": 109,
-                        "y": 500
                       }
                     ]
                   ]
@@ -374,7 +254,7 @@
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
-      "name": "nextlvlbutton",
+      "name": "LevelFailedtext",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -391,7 +271,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "379cbafe-a03d-4f5f-8ba9-e85fc4126be9-removebg-preview.png",
+                  "image": "unnamed-removebg-preview (3).png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -407,20 +287,140 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 6,
-                        "y": 12
+                        "x": 69,
+                        "y": 80
                       },
                       {
-                        "x": 167,
-                        "y": 12
+                        "x": 675,
+                        "y": 80
                       },
                       {
-                        "x": 167,
-                        "y": 79
+                        "x": 675,
+                        "y": 210
                       },
                       {
-                        "x": 6,
-                        "y": 79
+                        "x": 69,
+                        "y": 210
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Explosion",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "explode.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 80,
+                        "y": 30
+                      },
+                      {
+                        "x": 1070,
+                        "y": 30
+                      },
+                      {
+                        "x": 1070,
+                        "y": 600
+                      },
+                      {
+                        "x": 80,
+                        "y": 600
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "ReplayLvlButton",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "6c8ed40e-600f-4980-919d-e9260676d356-removebg-preview.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 10,
+                        "y": 8
+                      },
+                      {
+                        "x": 171,
+                        "y": 8
+                      },
+                      {
+                        "x": 171,
+                        "y": 75
+                      },
+                      {
+                        "x": 10,
+                        "y": 75
                       }
                     ]
                   ]
@@ -439,16 +439,16 @@
         "objectName": "WinningScreen"
       },
       {
-        "objectName": "LevelClearedText"
-      },
-      {
-        "objectName": "WinningDoctor"
-      },
-      {
         "objectName": "menubutton"
       },
       {
-        "objectName": "nextlvlbutton"
+        "objectName": "LevelFailedtext"
+      },
+      {
+        "objectName": "Explosion"
+      },
+      {
+        "objectName": "ReplayLvlButton"
       }
     ]
   },
@@ -514,7 +514,7 @@
             "value": "IsCursorOnObject"
           },
           "parameters": [
-            "nextlvlbutton",
+            "ReplayLvlButton",
             "",
             "",
             ""

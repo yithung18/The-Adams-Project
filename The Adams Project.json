@@ -767,6 +767,78 @@
         "name": "close-button-outline-style-icon-free-vector-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "very-dark-brown-free-solidcolor-background.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "very-dark-brown-free-solidcolor-background.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "very-dark-brown-free-solidcolor-background2.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "very-dark-brown-free-solidcolor-background2.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "3629453d-4cd4-44d5-a55c-e1ce1d11f366-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3629453d-4cd4-44d5-a55c-e1ce1d11f366-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "pedro-leite-jeferson-gif-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pedro-leite-jeferson-gif-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "d7907674-9627-4fd6-a1d2-01687b068003-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "d7907674-9627-4fd6-a1d2-01687b068003-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "379cbafe-a03d-4f5f-8ba9-e85fc4126be9-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "379cbafe-a03d-4f5f-8ba9-e85fc4126be9-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "unnamed-removebg-preview (3).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "unnamed-removebg-preview (3).png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "explode.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "explode.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "6c8ed40e-600f-4980-919d-e9260676d356-removebg-preview.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "6c8ed40e-600f-4980-919d-e9260676d356-removebg-preview.png",
+        "smoothed": true,
+        "userAdded": false
       }
     ]
   },
@@ -1127,6 +1199,10 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/layouts/winlevel1"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/losescreen"
     },
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
