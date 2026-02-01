@@ -1,7 +1,7 @@
 {
   "firstLayout": "",
   "gdVersion": {
-    "build": 254,
+    "build": 251,
     "major": 5,
     "minor": 6,
     "revision": 0
@@ -839,6 +839,105 @@
         "name": "6c8ed40e-600f-4980-919d-e9260676d356-removebg-preview.png",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Dialog Boxes/1118dc404ecf90d73c29dbc104c1f4d91b09e8d733e10db96a51a68b6cccfb74_8BitOperatorPlus8Regular_Edited.png",
+          "name": "8BitOperatorPlus8Regular_Edited.png"
+        }
+      },
+      {
+        "file": "assets/Border3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Border.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Dialog Boxes/05ecd64f1c91a6829602b38fba30e6ee390053c063d5c31084423ba5d3cabd14_Border.png",
+          "name": "Border.png"
+        }
+      },
+      {
+        "file": "assets/Border4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Border2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Dialog Boxes/f658987acc6831462b2b708842db73eb5d455d414b0c281f1e2237c335972585_Border2.png",
+          "name": "Border2.png"
+        }
+      },
+      {
+        "file": "assets/8BitOperatorPlus8Regular_Edited3.fnt",
+        "kind": "bitmapFont",
+        "metadata": "",
+        "name": "8BitOperatorPlus8Regular_Edited.fnt",
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Dialog Boxes/6b410f07a3a02e721a49d41795e84b56707ef28ac4d095d55f1fd1093760e134_8BitOperatorPlus8Regular_Edited.fnt",
+          "name": "8BitOperatorPlus8Regular_Edited.fnt"
+        }
+      },
+      {
+        "file": "Gemini_Generated_Image_wqa517wqa517wqa5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_wqa517wqa517wqa5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Gemini_Generated_Image_7k00467k00467k00.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gemini_Generated_Image_7k00467k00467k00.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "assets/Default panel-transparent-center (2).png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Default panel-transparent-center (2).png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Default Size/Transparent Panels/9450ac210b0602fa6c6519004a4146f66c69135b42a7e233611a2dee93e1c0a8_Default panel-transparent-center (2).png",
+          "name": "Default panel-transparent-center (2).png"
+        }
+      },
+      {
+        "file": "assets/panel-transparent-center-005.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panel-transparent-center-005.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Double Size/Transparent Panels/7e943214a1f42ca69a9c8a20c40ac99771b959e2b08528ec199c46eb69ff6170_panel-transparent-center-005.png",
+          "name": "panel-transparent-center-005.png"
+        }
+      },
+      {
+        "file": "assets/panel-border-006.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "panel-border-006.png",
+        "smoothed": true,
+        "userAdded": true,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Fantasy UI Borders/Double Size/Borders/0c2eade7df65b4ae9a40a5e6c012fc5bb8119ff3b961fd1dbdfeab2e6773873b_panel-border-006.png",
+          "name": "panel-border-006.png"
+        }
       }
     ]
   },
@@ -1227,6 +1326,18 @@
     {
       "__REFERENCE_TO_SPLIT_OBJECT": true,
       "referenceTo": "/eventsFunctionsExtensions/panelspritebutton"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/twochoicesdialogboxes"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/gamepads"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/autotyping"
     }
   ],
   "externalLayouts": []

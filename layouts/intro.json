@@ -20,10 +20,9 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.3645833333333333,
+    "zoomFactor": 0.35269049347712256,
     "windowMask": false,
-    "selectedLayer": "",
-    "gameEditorMode": "instances-editor"
+    "selectedLayer": ""
   },
   "objectsGroups": [],
   "variables": [],
@@ -35,11 +34,77 @@
       "height": 1080,
       "layer": "",
       "name": "NewSprite",
-      "persistentUuid": "fed9998c-962f-41b1-8ec8-f011a41c0eaa",
+      "persistentUuid": "15e1d348-2f09-4bb1-8a79-363df37447e0",
       "width": 1920,
-      "x": 0,
-      "y": 2,
+      "x": 3,
+      "y": 0,
       "zOrder": 1,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 851,
+      "keepRatio": true,
+      "layer": "",
+      "name": "TransparentPanel_5",
+      "persistentUuid": "27ad2873-3723-48da-b75f-e218486b6162",
+      "width": 1470,
+      "x": 234,
+      "y": 113,
+      "zOrder": 2,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 806,
+      "keepRatio": true,
+      "layer": "",
+      "name": "NewText",
+      "persistentUuid": "6b810d85-1d95-45e0-b0df-41317d67d12a",
+      "width": 1415,
+      "x": 265,
+      "y": 149,
+      "zOrder": 3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "StartIntro",
+      "persistentUuid": "bb6cd568-a3ed-45ab-aa6e-6046fc444f3f",
+      "width": 0,
+      "x": 1457,
+      "y": 870,
+      "zOrder": 4,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "keepRatio": true,
+      "layer": "",
+      "name": "Backmenu",
+      "persistentUuid": "6722761d-b2f9-42d4-8936-4b872d3b3fba",
+      "width": 0,
+      "x": 1248,
+      "y": 870,
+      "zOrder": 5,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -105,6 +170,111 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": true,
+      "italic": true,
+      "name": "NewText",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "AutoTyping",
+          "type": "AutoTyping::AutoTyping",
+          "Text": "Text",
+          "Interval": 0.05,
+          "CharacterJustAdded": false,
+          "FullText": "",
+          "TypedText": ""
+        }
+      ],
+      "string": "The room is quiet.\nToo quiet.\n\nYou wake up inside a locked hospital cell.\nYou are a doctor — now a prisoner.\n\nDr Adam, a former patient, has planted bombs throughout the hospital.\nWhen the timer ends, everyone dies.\n\nThe only way to stop it is to understand his broken reality.\n\nConnect the clues.\nUncover the password.\n\nTime is running out.\nSurvive.",
+      "font": "10a594780bf83286a06818d30b10a69366cbed3ffb9a9652bc688da7bc2be349_LakkiReddy-Regular.ttf",
+      "textAlignment": "center",
+      "characterSize": 44,
+      "color": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "content": {
+        "bold": true,
+        "isOutlineEnabled": false,
+        "isShadowEnabled": true,
+        "italic": true,
+        "outlineColor": "255;255;255",
+        "outlineThickness": 2,
+        "shadowAngle": 90,
+        "shadowBlurRadius": 2,
+        "shadowColor": "255;255;255",
+        "shadowDistance": 4,
+        "shadowOpacity": 127,
+        "smoothed": true,
+        "underlined": false,
+        "text": "The room is quiet.\nToo quiet.\n\nYou wake up inside a locked hospital cell.\nYou are a doctor — now a prisoner.\n\nDr Adam, a former patient, has planted bombs throughout the hospital.\nWhen the timer ends, everyone dies.\n\nThe only way to stop it is to understand his broken reality.\n\nConnect the clues.\nUncover the password.\n\nTime is running out.\nSurvive.",
+        "font": "10a594780bf83286a06818d30b10a69366cbed3ffb9a9652bc688da7bc2be349_LakkiReddy-Regular.ttf",
+        "textAlignment": "center",
+        "verticalTextAlignment": "top",
+        "characterSize": 44,
+        "lineHeight": 0,
+        "color": "0;0;0"
+      }
+    },
+    {
+      "assetStoreId": "6e9d3d2d524d887c3302bf0e4ad8aa228c2e17492a36069f3d9a3d9ec3bd0af9",
+      "bottomMargin": 32,
+      "height": 96,
+      "leftMargin": 32,
+      "name": "TransparentPanel_5",
+      "rightMargin": 32,
+      "texture": "panel-transparent-center-005.png",
+      "tiled": false,
+      "topMargin": 32,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 96,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "assetStoreId": "54a9a34bb495b15fe0e00f71075908e1ce52d499723617c966ad527229c77c79",
+      "name": "StartIntro",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Transparent Button With White Yellow Border",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0,
+        "LabelText": "Start"
+      }
+    },
+    {
+      "assetStoreId": "54a9a34bb495b15fe0e00f71075908e1ce52d499723617c966ad527229c77c79",
+      "name": "Backmenu",
+      "type": "PanelSpriteButton::PanelSpriteButton",
+      "variant": "Transparent Button With White Yellow Border",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "content": {
+        "LeftPadding": 0,
+        "RightPadding": 0,
+        "PressedLabelOffsetY": 4,
+        "BottomPadding": 0,
+        "TopPadding": 0,
+        "HoveredFadeOutDuration": 0,
+        "LabelText": "Back"
+      }
     }
   ],
   "objectsFolderStructure": {
@@ -112,10 +282,102 @@
     "children": [
       {
         "objectName": "NewSprite"
+      },
+      {
+        "objectName": "NewText"
+      },
+      {
+        "objectName": "TransparentPanel_5"
+      },
+      {
+        "objectName": "StartIntro"
+      },
+      {
+        "objectName": "Backmenu"
       }
     ]
   },
-  "events": [],
+  "events": [
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "StartIntro",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level 1\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [
+        {
+          "type": {
+            "value": "SourisSurObjet"
+          },
+          "parameters": [
+            "Backmenu",
+            "",
+            "",
+            ""
+          ]
+        },
+        {
+          "type": {
+            "value": "MouseButtonFromTextPressed"
+          },
+          "parameters": [
+            "",
+            "\"Left\""
+          ]
+        }
+      ],
+      "actions": [
+        {
+          "type": {
+            "value": "Scene"
+          },
+          "parameters": [
+            "",
+            "\"Level\"",
+            ""
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BuiltinCommonInstructions::Standard",
+      "conditions": [],
+      "actions": []
+    }
+  ],
   "layers": [
     {
       "ambientLightColorB": 200,
@@ -189,6 +451,10 @@
       "type": "AnimatableCapability::AnimatableBehavior"
     },
     {
+      "name": "AutoTyping",
+      "type": "AutoTyping::AutoTyping"
+    },
+    {
       "name": "Effect",
       "type": "EffectCapability::EffectBehavior"
     },
@@ -207,6 +473,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }

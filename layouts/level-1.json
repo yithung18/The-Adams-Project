@@ -22,8 +22,7 @@
     "snap": false,
     "zoomFactor": 0.3895856273827303,
     "windowMask": false,
-    "selectedLayer": "",
-    "gameEditorMode": "instances-editor"
+    "selectedLayer": ""
   },
   "objectsGroups": [],
   "variables": [],
@@ -576,9 +575,9 @@
       "effects": [],
       "behaviors": [
         {
-          "checkCollisionMask": true,
           "name": "Draggable",
-          "type": "DraggableBehavior::Draggable"
+          "type": "DraggableBehavior::Draggable",
+          "checkCollisionMask": true
         }
       ],
       "animations": [
