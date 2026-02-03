@@ -1006,7 +1006,26 @@
           "name": "TypedText"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Text"
+          },
+          {
+            "propertyName": "Interval"
+          },
+          {
+            "propertyName": "CharacterJustAdded"
+          },
+          {
+            "propertyName": "FullText"
+          },
+          {
+            "propertyName": "TypedText"
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []
