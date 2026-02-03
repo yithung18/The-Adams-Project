@@ -1405,6 +1405,32 @@
           "name": "HoveredSound"
         }
       ],
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "TextMessage"
+          },
+          {
+            "propertyName": "HighlightedButtonIndex"
+          },
+          {
+            "propertyName": "EnableEscape"
+          },
+          {
+            "propertyName": "LabelButtonID0"
+          },
+          {
+            "propertyName": "LabelButtonID1"
+          },
+          {
+            "propertyName": "_PropertyMapping"
+          },
+          {
+            "propertyName": "HoveredSound"
+          }
+        ]
+      },
       "variants": [
         {
           "areaMaxX": 600,

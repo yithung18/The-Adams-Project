@@ -2794,7 +2794,34 @@
           "name": "JumpButton"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PlatformerCharacter"
+          },
+          {
+            "propertyName": "GamepadIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "UseArrows"
+              },
+              {
+                "propertyName": "UseLeftStick"
+              },
+              {
+                "propertyName": "UseRightStick"
+              },
+              {
+                "propertyName": "JumpButton"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Control a 3D physics character with a gamepad.",
@@ -2989,7 +3016,28 @@
           "name": "JumpButton"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PhysicsCharacter3D"
+          },
+          {
+            "propertyName": "GamepadIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "JoystickIdentifier"
+              },
+              {
+                "propertyName": "JumpButton"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Control a 3D physics character with a gamepad.",
@@ -3190,7 +3238,31 @@
           "name": "JumpButton"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PhysicsCharacter3D"
+          },
+          {
+            "propertyName": "GamepadIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "WalkStick"
+              },
+              {
+                "propertyName": "CameraStick"
+              },
+              {
+                "propertyName": "JumpButton"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Control camera rotations with a gamepad.",
@@ -4231,7 +4303,68 @@
           "name": "CurrentRotationSpeedY"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "Object3D"
+          },
+          {
+            "propertyName": "GamepadIdentifier"
+          },
+          {
+            "propertyName": "CameraStick"
+          },
+          {
+            "folderName": "Horizontal rotation",
+            "children": [
+              {
+                "propertyName": "HorizontalRotationSpeedMax"
+              },
+              {
+                "propertyName": "HorizontalRotationAcceleration"
+              },
+              {
+                "propertyName": "HorizontalRotationDeceleration"
+              }
+            ]
+          },
+          {
+            "folderName": "Vertical rotation",
+            "children": [
+              {
+                "propertyName": "VerticalRotationSpeedMax"
+              },
+              {
+                "propertyName": "VerticalRotationAcceleration"
+              },
+              {
+                "propertyName": "VerticalRotationDeceleration"
+              },
+              {
+                "propertyName": "VerticalAngleMin"
+              },
+              {
+                "propertyName": "VerticalAngleMax"
+              }
+            ]
+          },
+          {
+            "folderName": "Position",
+            "children": [
+              {
+                "propertyName": "OffsetZ"
+              }
+            ]
+          },
+          {
+            "propertyName": "CurrentRotationSpeedZ"
+          },
+          {
+            "propertyName": "CurrentRotationSpeedY"
+          }
+        ]
+      }
     },
     {
       "description": "Control a 3D physics car with a gamepad.",
@@ -4601,7 +4734,34 @@
           "name": "HandBrakeButton"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "PhysicsCar3D"
+          },
+          {
+            "propertyName": "GamepadIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "UseArrows"
+              },
+              {
+                "propertyName": "UseLeftStick"
+              },
+              {
+                "propertyName": "UseRightStick"
+              },
+              {
+                "propertyName": "HandBrakeButton"
+              }
+            ]
+          }
+        ]
+      }
     },
     {
       "description": "Control a top-down character with a gamepad.",
@@ -5245,7 +5405,34 @@
           "name": "StickMode"
         }
       ],
-      "sharedPropertyDescriptors": []
+      "propertiesFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "propertyName": "TopDownMovement"
+          },
+          {
+            "propertyName": "GamepadIdentifier"
+          },
+          {
+            "folderName": "Controls",
+            "children": [
+              {
+                "propertyName": "UseArrows"
+              },
+              {
+                "propertyName": "UseLeftStick"
+              },
+              {
+                "propertyName": "UseRightStick"
+              },
+              {
+                "propertyName": "StickMode"
+              }
+            ]
+          }
+        ]
+      }
     }
   ],
   "eventsBasedObjects": []
